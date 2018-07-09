@@ -4,7 +4,7 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
 export interface Props {
-  theme: any
+  themeStore: any
   children: any
   style: any
   containerStyle: any
@@ -21,11 +21,11 @@ export interface Props {
   danger: boolean
 }
 
-@inject(({ theme }) => ({ theme }))
+@inject(({ themeStore }) => ({ themeStore }))
 class Label extends React.Component<Props> {
   @computed
   get styles() {
-    return styles(this.props.theme.get)
+    return styles(this.props.themeStore.theme)
   }
 
   render() {
@@ -33,17 +33,17 @@ class Label extends React.Component<Props> {
 
     const finalContainerStyle = [
       this.styles.container,
-      this.props.blue ? this.styles.blue : null,
-      this.props.violet ? this.styles.violet : null,
-      this.props.orange ? this.styles.orange : null,
-      this.props.cyan ? this.styles.cyan : null,
-      this.props.primary ? this.styles.primary : null,
-      this.props.secondary ? this.styles.secondary : null,
-      this.props.tertiary ? this.styles.tertiary : null,
-      this.props.info ? this.styles.info : null,
-      this.props.success ? this.styles.success : null,
-      this.props.warning ? this.styles.warning : null,
-      this.props.danger ? this.styles.danger : null,
+      this.props.blue && this.styles.blue,
+      this.props.violet && this.styles.violet,
+      this.props.orange && this.styles.orange,
+      this.props.cyan && this.styles.cyan,
+      this.props.primary && this.styles.primary,
+      this.props.secondary && this.styles.secondary,
+      this.props.tertiary && this.styles.tertiary,
+      this.props.info && this.styles.info,
+      this.props.success && this.styles.success,
+      this.props.warning && this.styles.warning,
+      this.props.danger && this.styles.danger,
       containerStyle,
     ]
 

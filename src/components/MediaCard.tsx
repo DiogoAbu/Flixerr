@@ -6,43 +6,99 @@ import React from 'react'
 import { StyleSheet, TouchableOpacity, View } from 'react-native'
 
 import CircleIcon from './CircleIcon'
+import Icon from './Icon'
 import Image from './Image'
 import Label from './Label'
 import Text from './Text'
 
 export interface Props {
-  media: object
+  themeStore: any
+  item: object
   posterHeight: number
-  theme: any
 }
 
-@inject(({ theme }) => ({ theme }))
+@inject(({ themeStore }) => ({ themeStore }))
 class MediaCard extends React.Component<Props> {
   @computed
   get styles() {
-    return styles(this.props.theme.get)
+    return styles(this.props.themeStore.theme)
   }
 
   @computed
-  get isSeries() {
-    return 'seasonCount' in this.props.media
+  get getDateAdded() {
+    const { item } = this.props
+
+    if (!item.isSeries) {
+      return {
+        date: moment.utc(item.hasFile ? item.movieFile.dateAdded : item.added).fromNow(),
+        icon: item.hasFile ? 'download' : 'movie-roll',
+      }
+    }
+
+    let hasFile = false
+    let dateFound
+
+    // Get most recent downloaded episode
+    for (const episode of item.episodes) {
+      if (episode.hasFile) {
+        hasFile = true
+        dateFound = episode.episodeFile.dateAdded
+        break
+      }
+    }
+    // Nothing found, return air date
+    dateFound = item.episodes[0].airDateUtc
+
+    return {
+      date: moment.utc(dateFound).fromNow(),
+      icon: hasFile ? 'download' : 'television-guide',
+    }
+  }
+
+  renderGenres() {
+    const {
+      item: { genres },
+    } = this.props
+
+    if (!genres || genres.length <= 0) {
+      return
+    }
+
+    const toShow = genres.slice(0, 2)
+
+    return (
+      <View style={this.styles.labelContainer}>
+        {toShow.map(genre => (
+          <Label key={genre} violet={true} containerStyle={this.styles.label}>
+            {genre}
+          </Label>
+        ))}
+        {genres.length > toShow.length && (
+          <Label key="extra-genres" info={true} containerStyle={this.styles.label}>
+            +{genres.length - toShow.length}
+          </Label>
+        )}
+      </View>
+    )
   }
 
   render() {
-    const { media, posterHeight } = this.props
+    const { item, posterHeight } = this.props
     const posterWidth = posterHeight / 1.5
+
+    const { date: dateAdded, icon: dateAddedIcon } = this.getDateAdded
 
     return (
       <View style={this.styles.container}>
-        <CircleIcon name={this.isSeries ? 'television-classic' : 'filmstrip'} success={this.isSeries} containerStyle={this.styles.iconContainer} />
+        <CircleIcon name={item.isSeries ? 'television-classic' : 'filmstrip'} success={item.isSeries} containerStyle={this.styles.iconContainer} />
 
         <View style={this.styles.cardContainer}>
           <TouchableOpacity activeOpacity={0.5} style={[this.styles.imageContainer, { height: posterHeight, width: posterWidth }]}>
             <Image
               source={{
-                uri: this.isSeries
-                  ? `http://192.168.1.20:8989/api/MediaCover/${media.id}/poster-250.jpg?apiKey=2074711aa649448684d393a44c040ec6`
-                  : `http://192.168.1.20:7878/api/MediaCover/${media.id}/poster-250.jpg?apiKey=d3258f33897b45f896ae815d8d3f0303`,
+                uri: item.isSeries
+                  ? `http://192.168.1.20:8989/api/MediaCover/${item.id}/poster-250.jpg?apiKey=2074711aa649448684d393a44c040ec6`
+                  : `http://192.168.1.20:7878/api/MediaCover/${item.id}/poster-250.jpg?apiKey=d3258f33897b45f896ae815d8d3f0303`,
               }}
               resizeMode="cover"
               style={[this.styles.image, { height: posterHeight, width: posterWidth }]}
@@ -52,20 +108,19 @@ class MediaCard extends React.Component<Props> {
           <View style={this.styles.infoContainer}>
             <View style={this.styles.detailContainer}>
               <Text bold={true} style={this.styles.title} numberOfLines={2} ellipsizeMode="tail">
-                {media.title}
+                {item.title}
               </Text>
               <Text small={true} faded={true}>
-                {media.year} / {media.runtime} min
+                {item.year} / {item.runtime} min{item.isSeries && ` / ${moment(item.nextAiring).format('dddd')}`}
               </Text>
             </View>
 
-            <Text orange={true} style={this.styles.dateAdded}>
-              {moment.utc(media.added).fromNow()}
+            <Text style={this.styles.dateAddedContainer}>
+              <Icon orange={true} name={dateAddedIcon} />
+              <Text orange={true}>{' ' + dateAdded}</Text>
             </Text>
 
-            <View style={this.styles.labelContainer}>
-              <Label violet={true}>Crime</Label>
-            </View>
+            {this.renderGenres()}
           </View>
         </View>
       </View>
@@ -110,12 +165,15 @@ const styles = theme =>
       marginRight: theme.gridSmall,
     },
 
+    dateAddedContainer: {},
+
     labelContainer: {
       flexDirection: 'row',
+      paddingTop: theme.gridSmall,
     },
 
-    dateAdded: {
-      paddingBottom: theme.gridSmall,
+    label: {
+      marginRight: theme.gridSmaller,
     },
 
     iconContainer: {

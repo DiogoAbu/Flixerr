@@ -1,0 +1,1094 @@
+[
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 1,
+    "title": "Inside the Episode: June",
+    "airDate": "2018-04-23",
+    "airDateUtc": "2018-04-23T05:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 117
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 2,
+    "title": "Inside the Episode: Unwomen",
+    "airDate": "2018-04-23",
+    "airDateUtc": "2018-04-23T05:55:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 118
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 3,
+    "title": "Inside the Episode: Baggage",
+    "airDate": "2018-04-30",
+    "airDateUtc": "2018-04-30T05:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 119
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 4,
+    "title": "Inside the Episode: Other Women",
+    "airDate": "2018-05-07",
+    "airDateUtc": "2018-05-07T05:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 120
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 5,
+    "title": "Inside the Episode: Seeds",
+    "airDate": "2018-05-14",
+    "airDateUtc": "2018-05-14T05:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 121
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 6,
+    "title": "Inside the Episode: First Blood",
+    "airDate": "2018-05-22",
+    "airDateUtc": "2018-05-22T05:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 122
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 7,
+    "title": "Inside the Episode: After",
+    "airDate": "2018-05-29",
+    "airDateUtc": "2018-05-29T05:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 123
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 8,
+    "title": "Inside the Episode: Women's Work",
+    "airDate": "2018-06-05",
+    "airDateUtc": "2018-06-05T05:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 124
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 9,
+    "title": "Inside the Episode: Smart Power",
+    "airDate": "2018-06-12",
+    "airDateUtc": "2018-06-12T05:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 125
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 10,
+    "title": "Inside the Episode: the Last Ceremony",
+    "airDate": "2018-06-19",
+    "airDateUtc": "2018-06-19T05:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 126
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 1,
+    "seasonNumber": 1,
+    "episodeNumber": 1,
+    "title": "Offred",
+    "airDate": "2017-04-26",
+    "airDateUtc": "2017-04-26T05:00:00Z",
+    "overview":
+      "Offred, one the few fertile women known as Handmaids in the oppressive Republic of Gilead, struggles to survive as a reproductive surrogate for a powerful Commander and his resentful wife.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E01.Offred.1080p.AMZN.WEBRip.DD5.1.x264-NTb[rartv].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E01.Offred.1080p.AMZN.WEBRip.DD5.1.x264-NTb[rartv].mkv",
+      "size": 6256910843,
+      "dateAdded": "2018-05-30T16:55:23.183834Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "x264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 1
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 1,
+    "unverifiedSceneNumbering": false,
+    "id": 1
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 3,
+    "seasonNumber": 1,
+    "episodeNumber": 2,
+    "title": "Birth Day",
+    "airDate": "2017-04-26",
+    "airDateUtc": "2017-04-26T05:55:00Z",
+    "overview":
+      "Offred and her fellow Handmaids assist with the delivery of Janine’s baby, prompting Offred to recall her own daughter’s birth. Offred draws closer to Ofglen while dreading a secret meeting with the Commander.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E02.Birth.Day.1080p.HULU.WEBRip.DDP5.1.H264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E02.Birth.Day.1080p.HULU.WEBRip.DDP5.1.H264-NTb[rarbg].mkv",
+      "size": 1990583353,
+      "dateAdded": "2018-05-30T16:55:23.517147Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 3
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 2,
+    "unverifiedSceneNumbering": false,
+    "id": 2
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 5,
+    "seasonNumber": 1,
+    "episodeNumber": 3,
+    "title": "Late",
+    "airDate": "2017-04-26",
+    "airDateUtc": "2017-04-26T06:50:00Z",
+    "overview": "Offred visits Janine’s baby with Serena Joy and remembers the early days of the revolution before Gilead. Ofglen faces a difficult challenge.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E03.Late.1080p.HULU.WEBRip.DDP5.1.H264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E03.Late.1080p.HULU.WEBRip.DDP5.1.H264-NTb[rarbg].mkv",
+      "size": 2308253693,
+      "dateAdded": "2018-05-30T16:55:23.615827Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 5
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 3,
+    "unverifiedSceneNumbering": false,
+    "id": 3
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 7,
+    "seasonNumber": 1,
+    "episodeNumber": 4,
+    "title": "Nolite Te Bastardes Carborundorum",
+    "airDate": "2017-05-03",
+    "airDateUtc": "2017-05-03T05:00:00Z",
+    "overview":
+      "Punished by Serena Joy, Offred begins to unravel and reflects on her time with Moira at the Red Center. A complication during the Ceremony threatens Offred’s survival with the Commander and Serena Joy.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E04.Nolite.Te.Bastardes.Carborundorum.REPACK.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "path":
+        "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E04.Nolite.Te.Bastardes.Carborundorum.REPACK.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "size": 2055484089,
+      "dateAdded": "2018-05-30T16:55:23.730692Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 2,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 7
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 4,
+    "unverifiedSceneNumbering": false,
+    "id": 4
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 9,
+    "seasonNumber": 1,
+    "episodeNumber": 5,
+    "title": "Faithful",
+    "airDate": "2017-05-10",
+    "airDateUtc": "2017-05-10T05:00:00Z",
+    "overview": "Serena Joy makes Offred a surprising proposition. Offred remembers the unconventional beginnings of her relationship with her husband.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E05.Faithful.REPACK.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "path":
+        "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E05.Faithful.REPACK.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "size": 2117455796,
+      "dateAdded": "2018-05-30T16:55:23.815733Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 2,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 9
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 5,
+    "unverifiedSceneNumbering": false,
+    "id": 5
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 11,
+    "seasonNumber": 1,
+    "episodeNumber": 6,
+    "title": "A Woman's Place",
+    "airDate": "2017-05-17",
+    "airDateUtc": "2017-05-17T05:00:00Z",
+    "overview":
+      "A Mexican Ambassador visiting Gilead questions Offred about her life as a Handmaid. Serena Joy reflects on her marriage and the role she once played in Gilead’s inception.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E06.A.Womans.Place.REPACK.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "path":
+        "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E06.A.Womans.Place.REPACK.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "size": 2206803553,
+      "dateAdded": "2018-05-30T16:55:23.900603Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 2,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 11
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 6,
+    "unverifiedSceneNumbering": false,
+    "id": 6
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 13,
+    "seasonNumber": 1,
+    "episodeNumber": 7,
+    "title": "The Other Side",
+    "airDate": "2017-05-24",
+    "airDateUtc": "2017-05-24T05:00:00Z",
+    "overview":
+      "Remembering her family’s treacherous escape attempt, a shocking revelation from life before Gilead provides a new perspective on Offred’s life.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E07.The.Other.Side.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "path":
+        "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E07.The.Other.Side.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "size": 1898130020,
+      "dateAdded": "2018-05-30T16:55:23.997727Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 13
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 7,
+    "unverifiedSceneNumbering": false,
+    "id": 7
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 14,
+    "seasonNumber": 1,
+    "episodeNumber": 8,
+    "title": "Jezebels",
+    "airDate": "2017-05-31",
+    "airDateUtc": "2017-05-31T05:00:00Z",
+    "overview": "The Commander surprises Offred with a secret adventure in Gilead. Nick’s troubled past leads to his recruitment by the Sons of Jacob.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E08.Jezebels.1080p.HULU.WEBRip.DDP5.1.H264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E08.Jezebels.1080p.HULU.WEBRip.DDP5.1.H264-NTb[rarbg].mkv",
+      "size": 1613329833,
+      "dateAdded": "2018-05-30T16:55:24.041467Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 14
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 8,
+    "unverifiedSceneNumbering": false,
+    "id": 8
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 15,
+    "seasonNumber": 1,
+    "episodeNumber": 9,
+    "title": "The Bridge",
+    "airDate": "2017-06-07",
+    "airDateUtc": "2017-06-07T05:00:00Z",
+    "overview": "Offred embarks on a dangerous mission for the resistance. Janine moves to a new posting. Serena Joy suspects the Commander’s infidelity.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E09.The.Bridge.REPACK.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "path":
+        "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E09.The.Bridge.REPACK.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "size": 1827178969,
+      "dateAdded": "2018-05-30T16:55:24.082498Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 2,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 15
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 9,
+    "unverifiedSceneNumbering": false,
+    "id": 9
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 16,
+    "seasonNumber": 1,
+    "episodeNumber": 10,
+    "title": "Night",
+    "airDate": "2017-06-14",
+    "airDateUtc": "2017-06-14T05:00:00Z",
+    "overview":
+      "Serena Joy confronts Offred and the Commander. Offred struggles with a complicated, life-changing revelation. The Handmaids face a brutal decision.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 1,
+      "relativePath": "Season 1/The.Handmaids.Tale.S01E10.Night.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 1/The.Handmaids.Tale.S01E10.Night.1080p.HULU.WEBRip.DD5.1.H.264-NTb[rartv].mkv",
+      "size": 2285241910,
+      "dateAdded": "2018-05-30T16:55:24.12903Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 16
+    },
+    "hasFile": true,
+    "monitored": false,
+    "absoluteEpisodeNumber": 10,
+    "unverifiedSceneNumbering": false,
+    "id": 10
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 2,
+    "seasonNumber": 2,
+    "episodeNumber": 1,
+    "title": "June",
+    "airDate": "2018-04-25",
+    "airDateUtc": "2018-04-25T05:00:00Z",
+    "overview": "Offred reckons with the consequences of a dangerous decision while haunted by memories from her past and the violent beginnings of Gilead.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E01.June.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E01.June.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "size": 1847745436,
+      "dateAdded": "2018-05-30T16:55:23.467718Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 2
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 11,
+    "unverifiedSceneNumbering": false,
+    "id": 11
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 4,
+    "seasonNumber": 2,
+    "episodeNumber": 2,
+    "title": "Unwomen",
+    "airDate": "2018-04-25",
+    "airDateUtc": "2018-04-25T05:55:00Z",
+    "overview": "Offred adjusts to a new way of life. The arrival of an unexpected person disrupts the Colonies. A family is torn apart by the rise of Gilead.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E02.Unwomen.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E02.Unwomen.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "size": 1378737990,
+      "dateAdded": "2018-05-30T16:55:23.571456Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 4
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 12,
+    "unverifiedSceneNumbering": false,
+    "id": 12
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 6,
+    "seasonNumber": 2,
+    "episodeNumber": 3,
+    "title": "Baggage",
+    "airDate": "2018-05-02",
+    "airDateUtc": "2018-05-02T05:00:00Z",
+    "overview":
+      "Offred reflects on her relationship with her mother as she navigates her way through Gilead. In Little America, Moira tries to cope with the trauma she endured.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E03.Baggage.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E03.Baggage.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "size": 1670617149,
+      "dateAdded": "2018-05-30T16:55:23.660214Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 6
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 13,
+    "unverifiedSceneNumbering": false,
+    "id": 13
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 8,
+    "seasonNumber": 2,
+    "episodeNumber": 4,
+    "title": "Other Women",
+    "airDate": "2018-05-09",
+    "airDateUtc": "2018-05-09T05:00:00Z",
+    "overview":
+      "A baby shower provokes a troubling shift in Offred’s relationship with Serena Joy. Offred reckons with the choice she made that led her to become a Handmaid.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E04.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E04.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "size": 1553697694,
+      "dateAdded": "2018-05-30T16:55:23.772798Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 8
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 14,
+    "unverifiedSceneNumbering": false,
+    "id": 14
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 10,
+    "seasonNumber": 2,
+    "episodeNumber": 5,
+    "title": "Seeds",
+    "airDate": "2018-05-16",
+    "airDateUtc": "2018-05-16T05:00:00Z",
+    "overview":
+      "Offred spirals as a Gilead ceremony disrupts her relationship with Nick. Janine tries to adjust to life in the Colonies, jeopardizing her friendship with Emily.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E05.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E05.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "size": 1332390840,
+      "dateAdded": "2018-05-30T16:55:23.858631Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 10
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 15,
+    "unverifiedSceneNumbering": false,
+    "id": 15
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 12,
+    "seasonNumber": 2,
+    "episodeNumber": 6,
+    "title": "First Blood",
+    "airDate": "2018-05-23",
+    "airDateUtc": "2018-05-23T05:00:00Z",
+    "overview":
+      "Offred finds unexpected allies and obstacles in her search for a way to protect Hannah. The Commander prepares for the dedication of a new Red Center. Nick struggles with his new assignment.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E06.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E06.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "size": 1776969005,
+      "dateAdded": "2018-05-30T16:55:23.954173Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 12
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 16,
+    "unverifiedSceneNumbering": false,
+    "id": 16
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 22,
+    "seasonNumber": 2,
+    "episodeNumber": 7,
+    "title": "After",
+    "airDate": "2018-05-30",
+    "airDateUtc": "2018-05-30T05:00:00Z",
+    "overview":
+      "An attack sends shockwaves through both Gilead and Little America. Serena Joy makes a dangerous choice in order to protect her family. Moira searches for someone from her past.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E07.After.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E07.After.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "size": 1555107479,
+      "dateAdded": "2018-05-31T11:06:50.318076Z",
+      "sceneName": "The.Handmaids.Tale.S02E07.After.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 22
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 17,
+    "unverifiedSceneNumbering": false,
+    "id": 17
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 30,
+    "seasonNumber": 2,
+    "episodeNumber": 8,
+    "title": "Women's Work",
+    "airDate": "2018-06-06",
+    "airDateUtc": "2018-06-06T05:00:00Z",
+    "overview": "A sick baby tests Offred and Serena. Janine finally faces Naomi.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E08.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E08.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "size": 1318065395,
+      "dateAdded": "2018-06-07T05:55:50.254008Z",
+      "sceneName": "The.Handmaids.Tale.S02E08.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 30
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 18,
+    "unverifiedSceneNumbering": false,
+    "id": 18
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 33,
+    "seasonNumber": 2,
+    "episodeNumber": 9,
+    "title": "Smart Power",
+    "airDate": "2018-06-13",
+    "airDateUtc": "2018-06-13T05:00:00Z",
+    "overview":
+      "The Waterfords embark on a diplomatic trip abroad.  Serena faces the temptation of life outside Gilead.  Luke and Moira grapple with survivor's guilt.  Offred seeks support from allies.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E09.Smart.Power.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E09.Smart.Power.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "size": 1446905014,
+      "dateAdded": "2018-06-13T12:22:54.320993Z",
+      "sceneName": "The.Handmaids.Tale.S02E09.Smart.Power.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 33
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 19,
+    "unverifiedSceneNumbering": false,
+    "id": 19
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 37,
+    "seasonNumber": 2,
+    "episodeNumber": 10,
+    "title": "The Last Ceremony",
+    "airDate": "2018-06-20",
+    "airDateUtc": "2018-06-20T05:00:00Z",
+    "overview":
+      "A frustrated Serena becomes desperate. The Commander tries to make amends with Offred. Nick pushes Eden farther away. Offred is faced with an unexpected reunion.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E10.REPACK.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E10.REPACK.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "size": 1573460092,
+      "dateAdded": "2018-06-22T05:57:27.453578Z",
+      "sceneName": "The.Handmaids.Tale.S02E10.REPACK.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 2,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 37
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 20,
+    "unverifiedSceneNumbering": false,
+    "id": 20
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 40,
+    "seasonNumber": 2,
+    "episodeNumber": 11,
+    "title": "Holly",
+    "airDate": "2018-06-27",
+    "airDateUtc": "2018-06-27T05:00:00Z",
+    "overview":
+      "Offred faces a grueling challenge alone as she recalls her life as a mother. Serena Joy and the Commander deal with the fallout of their actions towards Offred.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E11.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E11.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg].mkv",
+      "size": 1327081607,
+      "dateAdded": "2018-06-29T07:21:00.498686Z",
+      "sceneName": "The.Handmaids.Tale.S02E11.iNTERNAL.1080p.WEB.h264-BAMBOOZLE[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 40
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 21,
+    "unverifiedSceneNumbering": false,
+    "id": 21
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 41,
+    "seasonNumber": 2,
+    "episodeNumber": 12,
+    "title": "Postpartum",
+    "airDate": "2018-07-04",
+    "airDateUtc": "2018-07-04T05:00:00Z",
+    "overview": "Offred is sent to a familiar place. Nick is rocked by Gilead’s brutal response to a crime. Emily is assigned to a mysterious new house.",
+    "episodeFile": {
+      "seriesId": 1,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/The.Handmaids.Tale.S02E12.Postpartum.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale/Season 2/The.Handmaids.Tale.S02E12.Postpartum.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg].mkv",
+      "size": 1828619926,
+      "dateAdded": "2018-07-04T12:58:54.030142Z",
+      "sceneName": "The.Handmaids.Tale.S02E12.Postpartum.1080p.HULU.WEBRip.AAC2.0.H264-NTb[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 2,
+        "audioCodec": "AAC",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 41
+    },
+    "hasFile": true,
+    "monitored": true,
+    "unverifiedSceneNumbering": false,
+    "id": 22
+  },
+  {
+    "seriesId": 1,
+    "episodeFileId": 0,
+    "seasonNumber": 2,
+    "episodeNumber": 13,
+    "title": "The Word",
+    "airDate": "2018-07-11",
+    "airDateUtc": "2018-07-11T05:00:00Z",
+    "overview": "Serena and the other Wives strive to make change. Emily learns more about her new Commander. Offred faces a difficult decision.",
+    "hasFile": false,
+    "monitored": true,
+    "unverifiedSceneNumbering": false,
+    "id": 127
+  }
+]

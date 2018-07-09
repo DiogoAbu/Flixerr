@@ -6,18 +6,29 @@ import { Dimensions, StyleSheet, View } from 'react-native'
 import { FloatingAction } from 'react-native-floating-action'
 import SafeAreaView from 'react-native-safe-area-view'
 
-import { Header, MediaList } from '../components'
+import { Header, Loading, MediaList } from '../components'
 
 export interface Props {
-  theme: any
-  media: any
-  setIsLandscape: function
+  baseStore: any
+  themeStore: any
+  mediaStore: any
 }
 
-@inject(({ base, theme, media }) => ({ base, theme, media }))
+@inject(({ baseStore, themeStore, mediaStore }) => ({ baseStore, themeStore, mediaStore }))
 class Home extends React.Component<Props> {
+  constructor() {
+    super()
+    this.state = {
+      loading: true,
+    }
+  }
+
   componentDidMount() {
     Dimensions.addEventListener('change', this.onDimensionsChange)
+
+    this.props.mediaStore.fetchMedia()
+
+    setTimeout(() => this.setState({ loading: false }), 3000)
   }
 
   componentWillUnmount() {
@@ -25,44 +36,49 @@ class Home extends React.Component<Props> {
   }
 
   onDimensionsChange = ({ window: winData }) => {
-    this.props.base.setIsLandscape(winData.width > winData.height)
+    this.props.baseStore.setIsLandscape(winData.width > winData.height)
   }
 
   @computed
   get styles() {
-    return styles(this.props.theme.get)
+    return styles(this.props.themeStore.theme)
   }
 
   onPressAction = name => name
 
   render() {
+    if (this.state.loading) {
+      return <Loading containerStyle={this.styles.container} />
+    }
+
+    const theme = this.props.themeStore.theme
     const actions = [
       {
-        color: this.props.theme.get.floatingActionBgColor,
-        icon: <Icon name="settings" size={this.props.theme.get.floatingActionIconSize} color={this.props.theme.get.floatingActionIconColor} />,
+        color: theme.floatingActionBgColor,
+        icon: <Icon name="settings" size={theme.floatingActionIconSize} color={theme.floatingActionIconColor} />,
         name: 'settings',
         position: 1,
         text: 'Settings',
-        textBackground: this.props.theme.get.floatingActionTextBgColor,
-        textColor: this.props.theme.get.floatingActionTextColor,
+        textBackground: theme.floatingActionTextBgColor,
+        textColor: theme.floatingActionTextColor,
       },
       {
-        color: this.props.theme.get.violet,
-        icon: <Icon name="magnify" size={this.props.theme.get.floatingActionIconSize} color={this.props.theme.get.floatingActionIconColor} />,
+        color: theme.violet,
+        icon: <Icon name="magnify" size={theme.floatingActionIconSize} color={theme.floatingActionIconColor} />,
         name: 'find',
         position: 2,
         text: 'Find',
-        textBackground: this.props.theme.get.floatingActionTextBgColor,
-        textColor: this.props.theme.get.floatingActionTextColor,
+        textBackground: theme.floatingActionTextBgColor,
+        textColor: theme.floatingActionTextColor,
       },
       {
-        color: this.props.theme.get.success,
-        icon: <Icon name="plus" size={this.props.theme.get.floatingActionIconSize} color={this.props.theme.get.floatingActionIconColor} />,
+        color: theme.success,
+        icon: <Icon name="plus" size={theme.floatingActionIconSize} color={theme.floatingActionIconColor} />,
         name: 'add',
         position: 3,
         text: 'Add',
-        textBackground: this.props.theme.get.floatingActionTextBgColor,
-        textColor: this.props.theme.get.floatingActionTextColor,
+        textBackground: theme.floatingActionTextBgColor,
+        textColor: theme.floatingActionTextColor,
       },
     ]
 
@@ -71,16 +87,16 @@ class Home extends React.Component<Props> {
         <View style={this.styles.container}>
           <Header />
 
-          <MediaList media={this.props.media.media} />
+          <MediaList media={this.props.mediaStore.sortFileAdded} />
 
           <FloatingAction
             ref={ref => (this.floatingAction = ref)}
             actions={actions}
             onPressItem={this.onPressAction}
-            color={this.props.theme.get.floatingButtonBgColor}
-            distanceToEdge={this.props.theme.get.grid}
+            color={theme.floatingButtonBgColor}
+            distanceToEdge={theme.grid}
             position="right"
-            actionsPaddingTopBottom={this.props.theme.get.gridSmall}
+            actionsPaddingTopBottom={theme.gridSmall}
           />
         </View>
       </SafeAreaView>

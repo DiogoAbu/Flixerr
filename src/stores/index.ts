@@ -15,10 +15,10 @@ enableLogging({
 
 class Stores {
   constructor() {
-    this.base = new BaseStore(this)
-    this.media = new MediaStore(this)
-    this.route = new RouteStore(this)
-    this.theme = new ThemeStore(this)
+    this.baseStore = new BaseStore(this)
+    this.mediaStore = new MediaStore(this)
+    this.routeStore = new RouteStore(this)
+    this.themeStore = new ThemeStore(this)
   }
 }
 

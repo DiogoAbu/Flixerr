@@ -1,319 +1,321 @@
 [
   {
-      "title": "The Handmaid's Tale",
-      "alternateTitles": [
-          {
-              "title": "The Handmaids Tale",
-              "seasonNumber": -1
-          }
-      ],
-      "sortTitle": "handmaids tale",
-      "seasonCount": 2,
-      "totalEpisodeCount": 32,
-      "episodeCount": 22,
-      "episodeFileCount": 22,
-      "sizeOnDisk": 43168769686,
-      "status": "continuing",
-      "overview": "In a dystopian near-future, the totalitarian and Christian-fundamentalist government of Gilead rules the former United States amidst an ongoing civil war and subjugates women, who are not allowed to work, control money, or even read. Widespread infertility due to environmental contamination has resulted in the conscription of young fertile women—called Handmaids, according to biblical precedent—who are assigned to the homes of the elite, where they must have ritualized sex with the men in order to become pregnant and bear children for those men and their wives.",
-      "nextAiring": "2018-07-11T05:00:00Z",
-      "previousAiring": "2018-07-04T05:00:00Z",
-      "network": "Hulu",
-      "airTime": "01:00",
-      "images": [
-          {
-              "coverType": "fanart",
-              "url": "/MediaCover/1/fanart.jpg?lastWrite=636647401640000000"
-          },
-          {
-              "coverType": "banner",
-              "url": "/MediaCover/1/banner.jpg?lastWrite=636663826370000000"
-          },
-          {
-              "coverType": "poster",
-              "url": "/MediaCover/1/poster.jpg?lastWrite=636660368690000000"
-          }
-      ],
-      "seasons": [
-          {
-              "seasonNumber": 0,
-              "monitored": false,
-              "statistics": {
-                  "episodeFileCount": 0,
-                  "episodeCount": 0,
-                  "totalEpisodeCount": 10,
-                  "sizeOnDisk": 0,
-                  "percentOfEpisodes": 0
-              }
-          },
-          {
-              "seasonNumber": 1,
-              "monitored": false,
-              "statistics": {
-                  "previousAiring": "2017-06-14T05:00:00Z",
-                  "episodeFileCount": 10,
-                  "episodeCount": 10,
-                  "totalEpisodeCount": 10,
-                  "sizeOnDisk": 24559372059,
-                  "percentOfEpisodes": 100
-              }
-          },
-          {
-              "seasonNumber": 2,
-              "monitored": true,
-              "statistics": {
-                  "nextAiring": "2018-07-11T05:00:00Z",
-                  "previousAiring": "2018-07-04T05:00:00Z",
-                  "episodeFileCount": 12,
-                  "episodeCount": 12,
-                  "totalEpisodeCount": 12,
-                  "sizeOnDisk": 18609397627,
-                  "percentOfEpisodes": 100
-              }
-          }
-      ],
-      "year": 2017,
-      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale",
-      "profileId": 7,
-      "seasonFolder": true,
-      "monitored": true,
-      "useSceneNumbering": false,
-      "runtime": 55,
-      "tvdbId": 321239,
-      "tvRageId": 0,
-      "tvMazeId": 16579,
-      "firstAired": "2017-04-26T03:00:00Z",
-      "lastInfoSync": "2018-07-05T22:17:26.036177Z",
-      "seriesType": "standard",
-      "cleanTitle": "thehandmaidstale",
-      "imdbId": "tt5834204",
-      "titleSlug": "the-handmaids-tale",
-      "certification": "TV-MA",
-      "genres": [
-          "Drama"
-      ],
-      "tags": [],
-      "added": "2018-05-30T16:55:20.430737Z",
-      "ratings": {
-          "votes": 30,
-          "value": 8.9
+    "title": "The Handmaid's Tale",
+    "alternateTitles": [
+      {
+        "title": "The Handmaids Tale",
+        "seasonNumber": -1
+      }
+    ],
+    "sortTitle": "handmaids tale",
+    "seasonCount": 2,
+    "totalEpisodeCount": 32,
+    "episodeCount": 22,
+    "episodeFileCount": 22,
+    "sizeOnDisk": 43168769686,
+    "status": "continuing",
+    "overview":
+      "In a dystopian near-future, the totalitarian and Christian-fundamentalist government of Gilead rules the former United States amidst an ongoing civil war and subjugates women, who are not allowed to work, control money, or even read. Widespread infertility due to environmental contamination has resulted in the conscription of young fertile women—called Handmaids, according to biblical precedent—who are assigned to the homes of the elite, where they must have ritualized sex with the men in order to become pregnant and bear children for those men and their wives.",
+    "nextAiring": "2018-07-11T05:00:00Z",
+    "previousAiring": "2018-07-04T05:00:00Z",
+    "network": "Hulu",
+    "airTime": "01:00",
+    "images": [
+      {
+        "coverType": "fanart",
+        "url": "/MediaCover/1/fanart.jpg?lastWrite=636647401640000000"
       },
-      "qualityProfileId": 7,
-      "id": 1
+      {
+        "coverType": "banner",
+        "url": "/MediaCover/1/banner.jpg?lastWrite=636665555230000000"
+      },
+      {
+        "coverType": "poster",
+        "url": "/MediaCover/1/poster.jpg?lastWrite=636660368690000000"
+      }
+    ],
+    "seasons": [
+      {
+        "seasonNumber": 0,
+        "monitored": false,
+        "statistics": {
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 10,
+          "sizeOnDisk": 0,
+          "percentOfEpisodes": 0
+        }
+      },
+      {
+        "seasonNumber": 1,
+        "monitored": false,
+        "statistics": {
+          "previousAiring": "2017-06-14T05:00:00Z",
+          "episodeFileCount": 10,
+          "episodeCount": 10,
+          "totalEpisodeCount": 10,
+          "sizeOnDisk": 24559372059,
+          "percentOfEpisodes": 100
+        }
+      },
+      {
+        "seasonNumber": 2,
+        "monitored": true,
+        "statistics": {
+          "nextAiring": "2018-07-11T05:00:00Z",
+          "previousAiring": "2018-07-04T05:00:00Z",
+          "episodeFileCount": 12,
+          "episodeCount": 12,
+          "totalEpisodeCount": 12,
+          "sizeOnDisk": 18609397627,
+          "percentOfEpisodes": 100
+        }
+      }
+    ],
+    "year": 2017,
+    "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The Handmaid's Tale",
+    "profileId": 7,
+    "seasonFolder": true,
+    "monitored": true,
+    "useSceneNumbering": false,
+    "runtime": 55,
+    "tvdbId": 321239,
+    "tvRageId": 0,
+    "tvMazeId": 16579,
+    "firstAired": "2017-04-26T03:00:00Z",
+    "lastInfoSync": "2018-07-07T10:18:30.280928Z",
+    "seriesType": "standard",
+    "cleanTitle": "thehandmaidstale",
+    "imdbId": "tt5834204",
+    "titleSlug": "the-handmaids-tale",
+    "certification": "TV-MA",
+    "genres": ["Drama"],
+    "tags": [],
+    "added": "2018-05-30T16:55:20.430737Z",
+    "ratings": {
+      "votes": 30,
+      "value": 8.9
+    },
+    "qualityProfileId": 7,
+    "id": 1
   },
   {
-      "title": "Westworld",
-      "alternateTitles": [],
-      "sortTitle": "westworld",
-      "seasonCount": 2,
-      "totalEpisodeCount": 22,
-      "episodeCount": 10,
-      "episodeFileCount": 10,
-      "sizeOnDisk": 49540762376,
-      "status": "continuing",
-      "overview": "Westworld is a dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.",
-      "previousAiring": "2018-06-25T01:00:00Z",
-      "network": "HBO",
-      "airTime": "21:00",
-      "images": [
-          {
-              "coverType": "fanart",
-              "url": "/MediaCover/2/fanart.jpg?lastWrite=636640485430000000"
-          },
-          {
-              "coverType": "banner",
-              "url": "/MediaCover/2/banner.jpg?lastWrite=636633566910000000"
-          },
-          {
-              "coverType": "poster",
-              "url": "/MediaCover/2/poster.jpg?lastWrite=636632961690000000"
-          }
-      ],
-      "seasons": [
-          {
-              "seasonNumber": 0,
-              "monitored": false,
-              "statistics": {
-                  "episodeFileCount": 0,
-                  "episodeCount": 0,
-                  "totalEpisodeCount": 2,
-                  "sizeOnDisk": 0,
-                  "percentOfEpisodes": 0
-              }
-          },
-          {
-              "seasonNumber": 1,
-              "monitored": false,
-              "statistics": {
-                  "episodeFileCount": 0,
-                  "episodeCount": 0,
-                  "totalEpisodeCount": 10,
-                  "sizeOnDisk": 0,
-                  "percentOfEpisodes": 0
-              }
-          },
-          {
-              "seasonNumber": 2,
-              "monitored": true,
-              "statistics": {
-                  "previousAiring": "2018-06-25T01:00:00Z",
-                  "episodeFileCount": 10,
-                  "episodeCount": 10,
-                  "totalEpisodeCount": 10,
-                  "sizeOnDisk": 49540762376,
-                  "percentOfEpisodes": 100
-              }
-          }
-      ],
-      "year": 2016,
-      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld",
-      "profileId": 7,
-      "seasonFolder": true,
-      "monitored": true,
-      "useSceneNumbering": false,
-      "runtime": 60,
-      "tvdbId": 296762,
-      "tvRageId": 0,
-      "tvMazeId": 1371,
-      "firstAired": "2016-10-02T03:00:00Z",
-      "lastInfoSync": "2018-07-05T22:17:29.284098Z",
-      "seriesType": "standard",
-      "cleanTitle": "westworld",
-      "imdbId": "tt0475784",
-      "titleSlug": "westworld",
-      "certification": "TV-MA",
-      "genres": [
-          "Drama",
-          "Science-Fiction",
-          "Western"
-      ],
-      "tags": [],
-      "added": "2018-05-30T16:55:24.44677Z",
-      "ratings": {
-          "votes": 110,
-          "value": 8.9
+    "title": "Westworld",
+    "alternateTitles": [],
+    "sortTitle": "westworld",
+    "seasonCount": 3,
+    "totalEpisodeCount": 22,
+    "episodeCount": 10,
+    "episodeFileCount": 10,
+    "sizeOnDisk": 49540762376,
+    "status": "continuing",
+    "overview":
+      "Westworld is a dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.",
+    "previousAiring": "2018-06-25T01:00:00Z",
+    "network": "HBO",
+    "airTime": "21:00",
+    "images": [
+      {
+        "coverType": "fanart",
+        "url": "/MediaCover/2/fanart.jpg?lastWrite=636640485430000000"
       },
-      "qualityProfileId": 7,
-      "id": 2
+      {
+        "coverType": "banner",
+        "url": "/MediaCover/2/banner.jpg?lastWrite=636633566910000000"
+      },
+      {
+        "coverType": "poster",
+        "url": "/MediaCover/2/poster.jpg?lastWrite=636664690580000000"
+      }
+    ],
+    "seasons": [
+      {
+        "seasonNumber": 0,
+        "monitored": false,
+        "statistics": {
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 2,
+          "sizeOnDisk": 0,
+          "percentOfEpisodes": 0
+        }
+      },
+      {
+        "seasonNumber": 1,
+        "monitored": false,
+        "statistics": {
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 10,
+          "sizeOnDisk": 0,
+          "percentOfEpisodes": 0
+        }
+      },
+      {
+        "seasonNumber": 2,
+        "monitored": true,
+        "statistics": {
+          "previousAiring": "2018-06-25T01:00:00Z",
+          "episodeFileCount": 10,
+          "episodeCount": 10,
+          "totalEpisodeCount": 10,
+          "sizeOnDisk": 49540762376,
+          "percentOfEpisodes": 100
+        }
+      },
+      {
+        "seasonNumber": 3,
+        "monitored": true,
+        "statistics": {
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 0,
+          "sizeOnDisk": 0,
+          "percentOfEpisodes": 0
+        }
+      }
+    ],
+    "year": 2016,
+    "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld",
+    "profileId": 7,
+    "seasonFolder": true,
+    "monitored": true,
+    "useSceneNumbering": false,
+    "runtime": 60,
+    "tvdbId": 296762,
+    "tvRageId": 0,
+    "tvMazeId": 1371,
+    "firstAired": "2016-10-02T03:00:00Z",
+    "lastInfoSync": "2018-07-07T10:18:33.52959Z",
+    "seriesType": "standard",
+    "cleanTitle": "westworld",
+    "imdbId": "tt0475784",
+    "titleSlug": "westworld",
+    "certification": "TV-MA",
+    "genres": ["Adventure", "Drama", "Science-Fiction", "Western"],
+    "tags": [],
+    "added": "2018-05-30T16:55:24.44677Z",
+    "ratings": {
+      "votes": 110,
+      "value": 8.9
+    },
+    "qualityProfileId": 7,
+    "id": 2
   },
   {
-      "title": "The 100",
-      "alternateTitles": [],
-      "sortTitle": "100",
-      "seasonCount": 5,
-      "totalEpisodeCount": 66,
-      "episodeCount": 8,
-      "episodeFileCount": 8,
-      "sizeOnDisk": 18310302212,
-      "status": "continuing",
-      "overview": "When nuclear Armageddon destroys civilization on Earth, the only survivors are those on the 12 international space stations in orbit at the time. Three generations later, the 4,000 survivors living on a space ark of linked stations see their resources dwindle and face draconian measures established to ensure humanity's future. Desperately looking for a solution, the ark's leaders send 100 juvenile prisoners back to the planet to test its habitability. Having always lived in space, the exiles find the planet fascinating and terrifying, but with the fate of the human race in their hands, they must forge a path into the unknown.",
-      "nextAiring": "2018-07-11T00:00:00Z",
-      "previousAiring": "2018-06-27T00:00:00Z",
-      "network": "The CW",
-      "airTime": "20:00",
-      "images": [
-          {
-              "coverType": "fanart",
-              "url": "/MediaCover/3/fanart.jpg?lastWrite=636638355110000000"
-          },
-          {
-              "coverType": "banner",
-              "url": "/MediaCover/3/banner.jpg?lastWrite=636638355130000000"
-          },
-          {
-              "coverType": "poster",
-              "url": "/MediaCover/3/poster.jpg?lastWrite=636647833930000000"
-          }
-      ],
-      "seasons": [
-          {
-              "seasonNumber": 1,
-              "monitored": false,
-              "statistics": {
-                  "episodeFileCount": 0,
-                  "episodeCount": 0,
-                  "totalEpisodeCount": 13,
-                  "sizeOnDisk": 0,
-                  "percentOfEpisodes": 0
-              }
-          },
-          {
-              "seasonNumber": 2,
-              "monitored": false,
-              "statistics": {
-                  "episodeFileCount": 0,
-                  "episodeCount": 0,
-                  "totalEpisodeCount": 16,
-                  "sizeOnDisk": 0,
-                  "percentOfEpisodes": 0
-              }
-          },
-          {
-              "seasonNumber": 3,
-              "monitored": false,
-              "statistics": {
-                  "episodeFileCount": 0,
-                  "episodeCount": 0,
-                  "totalEpisodeCount": 16,
-                  "sizeOnDisk": 0,
-                  "percentOfEpisodes": 0
-              }
-          },
-          {
-              "seasonNumber": 4,
-              "monitored": false,
-              "statistics": {
-                  "episodeFileCount": 0,
-                  "episodeCount": 0,
-                  "totalEpisodeCount": 13,
-                  "sizeOnDisk": 0,
-                  "percentOfEpisodes": 0
-              }
-          },
-          {
-              "seasonNumber": 5,
-              "monitored": true,
-              "statistics": {
-                  "nextAiring": "2018-07-11T00:00:00Z",
-                  "previousAiring": "2018-06-27T00:00:00Z",
-                  "episodeFileCount": 8,
-                  "episodeCount": 8,
-                  "totalEpisodeCount": 8,
-                  "sizeOnDisk": 18310302212,
-                  "percentOfEpisodes": 100
-              }
-          }
-      ],
-      "year": 2014,
-      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The 100",
-      "profileId": 7,
-      "seasonFolder": true,
-      "monitored": true,
-      "useSceneNumbering": false,
-      "runtime": 45,
-      "tvdbId": 268592,
-      "tvRageId": 34770,
-      "tvMazeId": 6,
-      "firstAired": "2014-03-19T03:00:00Z",
-      "lastInfoSync": "2018-07-05T22:17:23.911784Z",
-      "seriesType": "standard",
-      "cleanTitle": "the100",
-      "imdbId": "tt2661044",
-      "titleSlug": "the-100",
-      "certification": "TV-14",
-      "genres": [
-          "Action",
-          "Drama",
-          "Science-Fiction",
-          "Suspense",
-          "Thriller"
-      ],
-      "tags": [],
-      "added": "2018-06-05T22:45:05.893448Z",
-      "ratings": {
-          "votes": 162,
-          "value": 8.3
+    "title": "The 100",
+    "alternateTitles": [],
+    "sortTitle": "100",
+    "seasonCount": 5,
+    "totalEpisodeCount": 66,
+    "episodeCount": 8,
+    "episodeFileCount": 8,
+    "sizeOnDisk": 18310302212,
+    "status": "continuing",
+    "overview":
+      "When nuclear Armageddon destroys civilization on Earth, the only survivors are those on the 12 international space stations in orbit at the time. Three generations later, the 4,000 survivors living on a space ark of linked stations see their resources dwindle and face draconian measures established to ensure humanity's future. Desperately looking for a solution, the ark's leaders send 100 juvenile prisoners back to the planet to test its habitability. Having always lived in space, the exiles find the planet fascinating and terrifying, but with the fate of the human race in their hands, they must forge a path into the unknown.",
+    "nextAiring": "2018-07-11T00:00:00Z",
+    "previousAiring": "2018-06-27T00:00:00Z",
+    "network": "The CW",
+    "airTime": "20:00",
+    "images": [
+      {
+        "coverType": "fanart",
+        "url": "/MediaCover/3/fanart.jpg?lastWrite=636638355110000000"
       },
-      "qualityProfileId": 7,
-      "id": 3
+      {
+        "coverType": "banner",
+        "url": "/MediaCover/3/banner.jpg?lastWrite=636638355130000000"
+      },
+      {
+        "coverType": "poster",
+        "url": "/MediaCover/3/poster.jpg?lastWrite=636647833930000000"
+      }
+    ],
+    "seasons": [
+      {
+        "seasonNumber": 1,
+        "monitored": false,
+        "statistics": {
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 13,
+          "sizeOnDisk": 0,
+          "percentOfEpisodes": 0
+        }
+      },
+      {
+        "seasonNumber": 2,
+        "monitored": false,
+        "statistics": {
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 16,
+          "sizeOnDisk": 0,
+          "percentOfEpisodes": 0
+        }
+      },
+      {
+        "seasonNumber": 3,
+        "monitored": false,
+        "statistics": {
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 16,
+          "sizeOnDisk": 0,
+          "percentOfEpisodes": 0
+        }
+      },
+      {
+        "seasonNumber": 4,
+        "monitored": false,
+        "statistics": {
+          "episodeFileCount": 0,
+          "episodeCount": 0,
+          "totalEpisodeCount": 13,
+          "sizeOnDisk": 0,
+          "percentOfEpisodes": 0
+        }
+      },
+      {
+        "seasonNumber": 5,
+        "monitored": true,
+        "statistics": {
+          "nextAiring": "2018-07-11T00:00:00Z",
+          "previousAiring": "2018-06-27T00:00:00Z",
+          "episodeFileCount": 8,
+          "episodeCount": 8,
+          "totalEpisodeCount": 8,
+          "sizeOnDisk": 18310302212,
+          "percentOfEpisodes": 100
+        }
+      }
+    ],
+    "year": 2014,
+    "path": "/mnt/EAEE7CCBEE7C9215/Seriados/The 100",
+    "profileId": 7,
+    "seasonFolder": true,
+    "monitored": true,
+    "useSceneNumbering": false,
+    "runtime": 45,
+    "tvdbId": 268592,
+    "tvRageId": 34770,
+    "tvMazeId": 6,
+    "firstAired": "2014-03-19T03:00:00Z",
+    "lastInfoSync": "2018-07-07T10:18:13.732749Z",
+    "seriesType": "standard",
+    "cleanTitle": "the100",
+    "imdbId": "tt2661044",
+    "titleSlug": "the-100",
+    "certification": "TV-14",
+    "genres": ["Action", "Drama", "Science-Fiction", "Suspense", "Thriller"],
+    "tags": [],
+    "added": "2018-06-05T22:45:05.893448Z",
+    "ratings": {
+      "votes": 162,
+      "value": 8.3
+    },
+    "qualityProfileId": 7,
+    "id": 3
   }
 ]

@@ -1,12 +1,13 @@
+import { MaterialCommunityIcons as Icon } from '@expo/vector-icons'
 import { computed } from 'mobx'
 import { inject } from 'mobx-react/native'
 import React from 'react'
-import { StyleSheet, Text as NativeText } from 'react-native'
+import { StyleSheet } from 'react-native'
 
 export interface Props {
   themeStore: any
-  children: any
   style: any
+  name: any
   large: boolean
   small: boolean
   bold: boolean
@@ -33,7 +34,7 @@ class Text extends React.Component<Props> {
   }
 
   render() {
-    const { children, style, ...rest } = this.props
+    const { style, ...rest } = this.props
     const finalStyle = [
       this.styles.text,
       this.props.large && this.styles.large,
@@ -55,11 +56,7 @@ class Text extends React.Component<Props> {
       style,
     ]
 
-    return (
-      <NativeText {...rest} style={finalStyle}>
-        {children}
-      </NativeText>
-    )
+    return <Icon {...rest} style={finalStyle} />
   }
 }
 

@@ -11,7 +11,7 @@ class ThemeStore {
 
   /** Get theme variables */
   @computed
-  get get() {
+  get theme() {
     return this.current in themes ? themes[this.current] : themes.dark
   }
 

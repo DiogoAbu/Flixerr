@@ -64,20 +64,7 @@
       }
     ],
     "prefer-const": true,
-    "prettier": [
-      true,
-      {
-        "arrowParens": "avoid",
-        "bracketSpacing": true,
-        "jsxBracketSameLine": false,
-        "printWidth": 160,
-        "semi": false,
-        "singleQuote": true,
-        "tabWidth": 2,
-        "trailingComma": "es5",
-        "useTabs": false
-      }
-    ],
+    "prettier": true,
     "quotemark": [true, "single", "jsx-double"],
     "ter-arrow-body-style": [true, "as-needed"],
     "trailing-comma": [

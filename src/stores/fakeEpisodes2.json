@@ -1,0 +1,625 @@
+[
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 1,
+    "title": "City Slickers in Westworld feat. Billy Crystal",
+    "airDate": "2017-02-02",
+    "airDateUtc": "2017-02-03T02:00:00Z",
+    "overview":
+      "Years after their 'City Slickers' narrative was retired, Westworld hosts Mitch (Billy Crystal) & Phil (Daniel Stern) are still happily driving cattle, however Mitch has started to malfunction and it's up to Stubbs (Luke Hemsworth) to analyze why he has gone off his loop.",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 24
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 0,
+    "episodeNumber": 2,
+    "title": "Westworld: The Story So Far",
+    "airDate": "2018-04-02",
+    "airDateUtc": "2018-04-03T01:00:00Z",
+    "hasFile": false,
+    "monitored": false,
+    "unverifiedSceneNumbering": false,
+    "id": 25
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 1,
+    "title": "The Original",
+    "airDate": "2016-10-02",
+    "airDateUtc": "2016-10-03T01:00:00Z",
+    "overview":
+      "As another day of fantasy plays out in Westworld — a vast, remote park where guests pay top dollar to share wild-west adventures with android “hosts” — top programmer Bernard Lowe alerts park founder Dr. Robert Ford about incidents of aberrant behavior cropping up in some recently re-coded hosts. Meanwhile, in the Westworld town of Sweetwater, a rancher’s daughter named Dolores encounters a gunslinger named Teddy in the street — but their predictable narrative is upended by the appearance of a ruthless Man in Black and, later, by a supporting host’s unscripted encounter with an artifact of the outside world.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 1,
+    "unverifiedSceneNumbering": false,
+    "id": 26
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 2,
+    "title": "Chestnut",
+    "airDate": "2016-10-09",
+    "airDateUtc": "2016-10-10T01:00:00Z",
+    "overview":
+      "A pair of guests — first-timer William, and repeat visitor Logan — arrive at Westworld with different expectations and agendas. Bernard  and Quality Assurance head Theresa Cullen debate whether a recent host anomaly is contagious. Meanwhile, behavior engineer Elsie Hughes tweaks the emotions of Maeve, a madam in Sweetwater’s brothel, in order to avoid a recall. Cocky programmer Lee Sizemore pitches his latest narrative to the team, but Dr. Ford has other ideas. The Man in Black conscripts a condemned man, Lawrence, to help him uncover Westworld’s deepest secrets.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 2,
+    "unverifiedSceneNumbering": false,
+    "id": 27
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 3,
+    "title": "The Stray",
+    "airDate": "2016-10-16",
+    "airDateUtc": "2016-10-17T01:00:00Z",
+    "overview":
+      "Elsie and Stubbs head into the hills in pursuit of a missing host. Teddy gets a new backstory, which sets him off in pursuit of a new villain, leaving Dolores alone in Sweetwater. Bernard investigates the origins of madness and hallucinations within the hosts. William finds an attraction he’d like to pursue and drags Logan along for the ride.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 3,
+    "unverifiedSceneNumbering": false,
+    "id": 28
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 4,
+    "title": "Dissonance Theory",
+    "airDate": "2016-10-23",
+    "airDateUtc": "2016-10-24T01:00:00Z",
+    "overview":
+      "Dolores joins William and Logan on a bounty hunt in the badlands. The Man in Black, with Lawrence in tow, finds a critical clue in his search to unlock the maze. Dr. Ford and Theresa discuss the future of the park. Maeve is troubled by a recurring vision.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 4,
+    "unverifiedSceneNumbering": false,
+    "id": 29
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 5,
+    "title": "Contrapasso",
+    "airDate": "2016-10-30",
+    "airDateUtc": "2016-10-31T01:00:00Z",
+    "overview":
+      "Dolores, William, and Logan reach Pariah, a town built on decadence and transgression — and are recruited for a dangerous mission. The Man in Black meets an unlikely ally in his search to unlock the maze.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 5,
+    "unverifiedSceneNumbering": false,
+    "id": 30
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 6,
+    "title": "The Adversary",
+    "airDate": "2016-11-06",
+    "airDateUtc": "2016-11-07T02:00:00Z",
+    "overview": "Lutz is charmed by Maeve; Elsie discovers evidence that could point to sabotage; the Man in Black and Teddy clash with a garrison.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 6,
+    "unverifiedSceneNumbering": false,
+    "id": 31
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 7,
+    "title": "Trompe L'Oeil",
+    "airDate": "2016-11-13",
+    "airDateUtc": "2016-11-14T02:00:00Z",
+    "overview": "Dolores and William journey into treacherous terrain; Maeve delivers an ultimatum; Bernard considers his next move.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 7,
+    "unverifiedSceneNumbering": false,
+    "id": 32
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 8,
+    "title": "Trace Decay",
+    "airDate": "2016-11-20",
+    "airDateUtc": "2016-11-21T02:00:00Z",
+    "overview": "Bernard struggles with a mandate; Maeve looks to change her script; Teddy is jarred by dark memories.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 8,
+    "unverifiedSceneNumbering": false,
+    "id": 33
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 9,
+    "title": "The Well-Tempered Clavier",
+    "airDate": "2016-11-27",
+    "airDateUtc": "2016-11-28T02:00:00Z",
+    "overview": "Dolores and Bernard reconnect with their pasts; Maeve makes a bold proposition to Hector; Teddy finds enlightenment, at a price.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 9,
+    "unverifiedSceneNumbering": false,
+    "id": 34
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 1,
+    "episodeNumber": 10,
+    "title": "The Bicameral Mind",
+    "airDate": "2016-12-04",
+    "airDateUtc": "2016-12-05T02:00:00Z",
+    "overview": "Ford unveils his bold new narrative; Dolores embraces her identity; Maeve sets her plan in motion.",
+    "hasFile": false,
+    "monitored": false,
+    "absoluteEpisodeNumber": 10,
+    "unverifiedSceneNumbering": false,
+    "id": 35
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 17,
+    "seasonNumber": 2,
+    "episodeNumber": 1,
+    "title": "Journey Into Night",
+    "airDate": "2018-04-22",
+    "airDateUtc": "2018-04-23T01:00:00Z",
+    "overview":
+      "Wyatt, Maeve, and the other hosts pursue their respective new goals. The Delos corporation sends its security forces in to combat the rebellion.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E01.Journey.Into.Night.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E01.Journey.Into.Night.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "size": 6114715826,
+      "dateAdded": "2018-05-30T16:56:07.39915Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 17
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 11,
+    "unverifiedSceneNumbering": false,
+    "id": 36
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 18,
+    "seasonNumber": 2,
+    "episodeNumber": 2,
+    "title": "Reunion",
+    "airDate": "2018-04-29",
+    "airDateUtc": "2018-04-30T01:00:00Z",
+    "overview": "Hosts continue to make moves in the park. Flashbacks begin to reveal the histories of the Delos corporation and of Delores.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E02.1080p.WEB.H264-DEFLATE[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E02.1080p.WEB.H264-DEFLATE[rarbg].mkv",
+      "size": 4828570129,
+      "dateAdded": "2018-05-30T16:56:07.448282Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 18
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 12,
+    "unverifiedSceneNumbering": false,
+    "id": 37
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 19,
+    "seasonNumber": 2,
+    "episodeNumber": 3,
+    "title": "Virtù e Fortuna",
+    "airDate": "2018-05-06",
+    "airDateUtc": "2018-05-07T01:00:00Z",
+    "overview":
+      "Host alliances are forged and broken. As the rebellion spreads to the park's other sections, the divisions between those \"worlds\" begin to blur.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E03.Virtu.e.Fortuna.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E03.Virtu.e.Fortuna.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "size": 5458304020,
+      "dateAdded": "2018-05-30T16:56:07.492275Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 19
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 13,
+    "unverifiedSceneNumbering": false,
+    "id": 38
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 20,
+    "seasonNumber": 2,
+    "episodeNumber": 4,
+    "title": "The Riddle of the Sphinx",
+    "airDate": "2018-05-13",
+    "airDateUtc": "2018-05-14T01:00:00Z",
+    "overview":
+      "William continues to play Ford's \"new game\". Bernard and Elsie make important and disturbing discoveries about what the Delos corporation has really been doing.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E04.1080p.WEB.5.1.HEVC.x265-GIRAYS.mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E04.1080p.WEB.5.1.HEVC.x265-GIRAYS.mkv",
+      "size": 1464192409,
+      "dateAdded": "2018-05-30T16:56:07.569232Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "AAC",
+        "videoCodec": "h265"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 20
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 14,
+    "unverifiedSceneNumbering": false,
+    "id": 39
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 21,
+    "seasonNumber": 2,
+    "episodeNumber": 5,
+    "title": "Akane No Mai",
+    "airDate": "2018-05-20",
+    "airDateUtc": "2018-05-21T01:00:00Z",
+    "overview":
+      "Maeve and her allies have revelations in a new world. Dolores makes a decision about Teddy. Karl discovers something sinister about the hosts' data.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E05.Akane.No.Mai.1080p.AMZN.WEB-DL.5.1.HEVC.x265-GIRAYS.mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E05.Akane.No.Mai.1080p.AMZN.WEB-DL.5.1.HEVC.x265-GIRAYS.mkv",
+      "size": 1036697343,
+      "dateAdded": "2018-05-30T16:56:07.613179Z",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "AAC",
+        "videoCodec": "h265"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 21
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 15,
+    "unverifiedSceneNumbering": false,
+    "id": 40
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 23,
+    "seasonNumber": 2,
+    "episodeNumber": 6,
+    "title": "Phase Space",
+    "airDate": "2018-05-27",
+    "airDateUtc": "2018-05-28T01:00:00Z",
+    "overview": "Maeve continues her search for the daughter, Dolores calculates her next move and Elsie gets closer to the truth about Delos.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E06.Phase.Space.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E06.Phase.Space.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "size": 5489455688,
+      "dateAdded": "2018-06-01T05:59:38.829436Z",
+      "sceneName": "Westworld.S02E06.Phase.Space.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "x264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 23
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 16,
+    "unverifiedSceneNumbering": false,
+    "id": 41
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 24,
+    "seasonNumber": 2,
+    "episodeNumber": 7,
+    "title": "Les Écorchés",
+    "airDate": "2018-06-03",
+    "airDateUtc": "2018-06-04T01:00:00Z",
+    "overview": "Bernard meets with an unexpected old friend, the Cradle is under threat and Maeve encounters a scene from her past.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E07.1080p.WEB.H264-DEFLATE[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E07.1080p.WEB.H264-DEFLATE[rarbg].mkv",
+      "size": 5602330914,
+      "dateAdded": "2018-06-04T11:06:26.837174Z",
+      "sceneName": "Westworld.S02E07.1080p.WEB.H264-DEFLATE[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "h264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 24
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 17,
+    "unverifiedSceneNumbering": false,
+    "id": 42
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 32,
+    "seasonNumber": 2,
+    "episodeNumber": 8,
+    "title": "Kiksuya",
+    "airDate": "2018-06-10",
+    "airDateUtc": "2018-06-11T01:00:00Z",
+    "overview": "Mi cante ki yu ha ya ye (Take my heart when you go). This is the telling of Akecheta's Journey to consciousness.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E08.Kiksuya.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E08.Kiksuya.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "size": 5822953300,
+      "dateAdded": "2018-06-11T12:17:02.995736Z",
+      "sceneName": "Westworld.S02E08.Kiksuya.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "x264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 32
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 18,
+    "unverifiedSceneNumbering": false,
+    "id": 43
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 34,
+    "seasonNumber": 2,
+    "episodeNumber": 9,
+    "title": "Vanishing Point",
+    "airDate": "2018-06-17",
+    "airDateUtc": "2018-06-18T01:00:00Z",
+    "overview": "A family tragedy and fragile states of mind come into focus as the Man in Black and Teddy both reach their breaking points.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E09.Vanishing.Point.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E09.Vanishing.Point.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "size": 5734044155,
+      "dateAdded": "2018-06-18T11:09:08.040842Z",
+      "sceneName": "Westworld.S02E09.Vanishing.Point.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 1,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "x264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 34
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 19,
+    "unverifiedSceneNumbering": false,
+    "id": 44
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 38,
+    "seasonNumber": 2,
+    "episodeNumber": 10,
+    "title": "The Passenger",
+    "airDate": "2018-06-24",
+    "airDateUtc": "2018-06-25T01:00:00Z",
+    "overview": "Host and humans converge at the Valley Beyond.",
+    "episodeFile": {
+      "seriesId": 2,
+      "seasonNumber": 2,
+      "relativePath": "Season 2/Westworld.S02E10.REPACK.The.Passenger.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "path": "/mnt/EAEE7CCBEE7C9215/Seriados/Westworld/Season 2/Westworld.S02E10.REPACK.The.Passenger.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg].mkv",
+      "size": 7989498592,
+      "dateAdded": "2018-06-26T07:59:10.810382Z",
+      "sceneName": "Westworld.S02E10.REPACK.The.Passenger.1080p.AMZN.WEBRip.DDP5.1.x264-NTb[rarbg]",
+      "quality": {
+        "quality": {
+          "id": 3,
+          "name": "WEBDL-1080p",
+          "source": "web",
+          "resolution": 1080
+        },
+        "revision": {
+          "version": 2,
+          "real": 0
+        }
+      },
+      "mediaInfo": {
+        "audioChannels": 5.1,
+        "audioCodec": "EAC3",
+        "videoCodec": "x264"
+      },
+      "qualityCutoffNotMet": false,
+      "id": 38
+    },
+    "hasFile": true,
+    "monitored": true,
+    "absoluteEpisodeNumber": 20,
+    "unverifiedSceneNumbering": false,
+    "id": 45
+  },
+  {
+    "seriesId": 2,
+    "episodeFileId": 0,
+    "seasonNumber": 3,
+    "episodeNumber": 1,
+    "title": "Episode 1",
+    "hasFile": false,
+    "monitored": true,
+    "unverifiedSceneNumbering": false,
+    "id": 128
+  }
+]
