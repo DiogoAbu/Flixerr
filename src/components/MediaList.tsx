@@ -3,11 +3,13 @@ import { inject } from 'mobx-react/native'
 import React from 'react'
 import { FlatList, View } from 'react-native'
 
+import { Media, ThemeStoreInterface } from '../interfaces'
+
 import MediaCard from './MediaCard'
 
 export interface Props {
-  themeStore: any
-  media: any
+  themeStore: ThemeStoreInterface
+  media: Media[]
 }
 
 const POSTER_HEIGHT = 176

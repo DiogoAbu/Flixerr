@@ -3,13 +3,13 @@ import { ActivityIndicator, StyleSheet, View } from 'react-native'
 
 export interface Props {
   animating: boolean
-  containerStyle: any
+  containerStyle: React.CSSProperties
   hidesWhenStopped: boolean
   size: string
 }
 
 class Loading extends React.Component<Props> {
-  static defaultProps = {
+  static defaultProps: Partial<Props> = {
     animating: true,
     containerStyle: null,
     hidesWhenStopped: false,

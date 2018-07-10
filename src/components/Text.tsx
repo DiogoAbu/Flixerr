@@ -3,10 +3,12 @@ import { inject } from 'mobx-react/native'
 import React from 'react'
 import { StyleSheet, Text as NativeText } from 'react-native'
 
+import { ThemeStoreInterface } from '../interfaces'
+
 export interface Props {
-  themeStore: any
-  children: any
-  style: any
+  themeStore: ThemeStoreInterface
+  children: React.ReactNode
+  style: React.CSSProperties
   large: boolean
   small: boolean
   bold: boolean

@@ -1,13 +1,15 @@
-import { MaterialCommunityIcons as Icon } from '@expo/vector-icons'
+import { MaterialCommunityIcons } from '@expo/vector-icons'
 import { computed } from 'mobx'
 import { inject } from 'mobx-react/native'
 import React from 'react'
 import { StyleSheet } from 'react-native'
 
+import { ThemeStoreInterface } from '../interfaces'
+
 export interface Props {
-  themeStore: any
-  style: any
-  name: any
+  themeStore: ThemeStoreInterface
+  style: React.CSSProperties
+  name: string
   large: boolean
   small: boolean
   bold: boolean
@@ -27,7 +29,7 @@ export interface Props {
 }
 
 @inject(({ themeStore }) => ({ themeStore }))
-class Text extends React.Component<Props> {
+class Icon extends React.Component<Props> {
   @computed
   get styles() {
     return styles(this.props.themeStore.theme)
@@ -56,7 +58,7 @@ class Text extends React.Component<Props> {
       style,
     ]
 
-    return <Icon {...rest} style={finalStyle} />
+    return <MaterialCommunityIcons {...rest} style={finalStyle} />
   }
 }
 
@@ -133,4 +135,4 @@ const styles = theme =>
     },
   })
 
-export default Text
+export default Icon

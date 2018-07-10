@@ -1,8 +1,9 @@
 import { action, computed, observable } from 'mobx'
 
+import { ThemeStoreInterface } from '../interfaces'
 import * as themes from '../themes'
 
-class ThemeStore {
+class ThemeStore implements ThemeStoreInterface {
   /** Available themes */
   readonly available: object = themes
 
@@ -11,13 +12,13 @@ class ThemeStore {
 
   /** Get theme variables */
   @computed
-  get theme() {
+  get theme(): object {
     return this.current in themes ? themes[this.current] : themes.dark
   }
 
   /** Set theme to be used */
   @action
-  set(theme) {
+  setTheme(theme: string) {
     if (theme in this.available) {
       this.current = theme
     }

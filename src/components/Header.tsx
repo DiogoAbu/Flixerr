@@ -4,15 +4,17 @@ import React from 'react'
 import { FlatList, LayoutAnimation, Platform, StyleSheet, TouchableOpacity, UIManager } from 'react-native'
 import SafeAreaView from 'react-native-safe-area-view'
 
+import { BaseStoreInterface, RouteStoreInterface, ThemeStoreInterface } from '../interfaces'
+
 import Text from './Text'
 
 // tslint:disable-next-line:no-unused-expression
 UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true)
 
 export interface Props {
-  baseStore: any
-  themeStore: any
-  routeStore: any
+  baseStore: BaseStoreInterface
+  themeStore: ThemeStoreInterface
+  routeStore: RouteStoreInterface
 }
 
 @inject(({ baseStore, themeStore, routeStore }) => ({ baseStore, themeStore, routeStore }))

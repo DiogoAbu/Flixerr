@@ -1,6 +1,8 @@
 import { action, observable } from 'mobx'
 
-class RouteStore {
+import { RouteStoreInterface } from '../interfaces'
+
+class RouteStore implements RouteStoreInterface {
   /** Available routes */
   readonly routes = ['Newly Added', 'Upcoming', 'Calendar']
 
@@ -9,7 +11,7 @@ class RouteStore {
 
   /** Set current route */
   @action
-  set(route) {
+  goTo(route: string) {
     if (this.routes.includes(route)) {
       this.current = route
     }

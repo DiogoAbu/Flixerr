@@ -1,9 +1,11 @@
 import { action, observable } from 'mobx'
 import { Dimensions } from 'react-native'
 
+import { BaseStoreInterface } from '../interfaces'
+
 const winData = Dimensions.get('window')
 
-class BaseStore {
+class BaseStore implements BaseStoreInterface {
   /** Whether Status Bar should show network activity */
   @observable networkActivity = false
 
@@ -12,7 +14,7 @@ class BaseStore {
 
   /** Set whether it's landscape */
   @action
-  setIsLandscape(newIsLandscape) {
+  setIsLandscape(newIsLandscape: boolean) {
     this.isLandscape = newIsLandscape
   }
 }

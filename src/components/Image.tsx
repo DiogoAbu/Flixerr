@@ -3,7 +3,7 @@ import React from 'react'
 import { Image as NativeImage } from 'react-native'
 
 export interface Props {
-  children: any
+  children: React.ReactNode
 }
 
 @observer

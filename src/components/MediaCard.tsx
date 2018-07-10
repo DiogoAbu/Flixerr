@@ -5,6 +5,8 @@ import 'moment-duration-format'
 import React from 'react'
 import { StyleSheet, TouchableOpacity, View } from 'react-native'
 
+import { Media, SortOneFileAdded, ThemeStoreInterface } from '../interfaces'
+
 import CircleIcon from './CircleIcon'
 import Icon from './Icon'
 import Image from './Image'
@@ -12,12 +14,13 @@ import Label from './Label'
 import Text from './Text'
 
 export interface Props {
-  themeStore: any
-  item: object
+  themeStore: ThemeStoreInterface
+  item: Media
   posterHeight: number
+  sortOneFileAdded(item: Media): SortOneFileAdded
 }
 
-@inject(({ themeStore }) => ({ themeStore }))
+@inject(({ themeStore, mediaStore: { sortOneFileAdded } }) => ({ themeStore, sortOneFileAdded }))
 class MediaCard extends React.Component<Props> {
   @computed
   get styles() {
@@ -26,32 +29,12 @@ class MediaCard extends React.Component<Props> {
 
   @computed
   get getDateAdded() {
-    const { item } = this.props
-
-    if (!item.isSeries) {
-      return {
-        date: moment.utc(item.hasFile ? item.movieFile.dateAdded : item.added).fromNow(),
-        icon: item.hasFile ? 'download' : 'movie-roll',
-      }
-    }
-
-    let hasFile = false
-    let dateFound
-
-    // Get most recent downloaded episode
-    for (const episode of item.episodes) {
-      if (episode.hasFile) {
-        hasFile = true
-        dateFound = episode.episodeFile.dateAdded
-        break
-      }
-    }
-    // Nothing found, return air date
-    dateFound = item.episodes[0].airDateUtc
+    const { item, sortOneFileAdded } = this.props
+    const { date, downloaded } = sortOneFileAdded(item)
 
     return {
-      date: moment.utc(dateFound).fromNow(),
-      icon: hasFile ? 'download' : 'television-guide',
+      date: moment.utc(date).fromNow(),
+      icon: downloaded ? 'download' : item.isSeries ? 'television-guide' : 'movie-roll',
     }
   }
 

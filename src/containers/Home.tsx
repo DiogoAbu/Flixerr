@@ -7,11 +7,12 @@ import { FloatingAction } from 'react-native-floating-action'
 import SafeAreaView from 'react-native-safe-area-view'
 
 import { Header, Loading, MediaList } from '../components'
+import { BaseStoreInterface, MediaStoreInterface, ThemeStoreInterface } from '../interfaces'
 
 export interface Props {
-  baseStore: any
-  themeStore: any
-  mediaStore: any
+  baseStore: BaseStoreInterface
+  themeStore: ThemeStoreInterface
+  mediaStore: MediaStoreInterface
 }
 
 @inject(({ baseStore, themeStore, mediaStore }) => ({ baseStore, themeStore, mediaStore }))
@@ -23,10 +24,10 @@ class Home extends React.Component<Props> {
     }
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     Dimensions.addEventListener('change', this.onDimensionsChange)
 
-    this.props.mediaStore.fetchMedia()
+    await this.props.mediaStore.fetchMedia()
 
     setTimeout(() => this.setState({ loading: false }), 3000)
   }
@@ -48,7 +49,11 @@ class Home extends React.Component<Props> {
 
   render() {
     if (this.state.loading) {
-      return <Loading containerStyle={this.styles.container} />
+      return (
+        <SafeAreaView style={this.styles.container}>
+          <Loading />
+        </SafeAreaView>
+      )
     }
 
     const theme = this.props.themeStore.theme
