@@ -1,4 +1,4 @@
-/* tslint:disable:object-literal-sort-keys */
+// tslint:disable:object-literal-sort-keys
 export default {
   grid: 16,
   gridSmall: 12,
@@ -34,6 +34,8 @@ export default {
 
   // Fonts
   fontSize: 17.5,
+  fontSizeXx: 17.5 * 2,
+  fontSizeXl: 17.5 * 1.5,
   fontSizeLg: 17.5 * 1.25,
   fontSizeSm: 17.5 * 0.875,
 

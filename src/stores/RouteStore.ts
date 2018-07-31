@@ -11,7 +11,7 @@ class RouteStore implements RouteStoreInterface {
 
   /** Set current route */
   @action
-  goTo(route: string) {
+  setRoute = (route: string) => {
     if (this.routes.includes(route)) {
       this.current = route
     }

@@ -1,4 +1,5 @@
 export { default as CircleIcon } from './CircleIcon'
+export { default as FloatingAction } from './FloatingAction'
 export { default as Header } from './Header'
 export { default as Icon } from './Icon'
 export { default as Image } from './Image'

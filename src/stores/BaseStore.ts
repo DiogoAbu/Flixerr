@@ -14,7 +14,7 @@ class BaseStore implements BaseStoreInterface {
 
   /** Set whether it's landscape */
   @action
-  setIsLandscape(newIsLandscape: boolean) {
+  setIsLandscape = (newIsLandscape: boolean) => {
     this.isLandscape = newIsLandscape
   }
 }

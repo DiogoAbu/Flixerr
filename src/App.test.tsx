@@ -1,5 +1,5 @@
-import * as React from 'react'
-import * as renderer from 'react-test-renderer' // tslint:disable-line:no-implicit-dependencies
+import React from 'react'
+import renderer from 'react-test-renderer' // tslint:disable-line:no-implicit-dependencies
 
 import App from './App'
 

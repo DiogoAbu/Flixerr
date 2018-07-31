@@ -1,6 +1,6 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 import { computed } from 'mobx'
-import { inject } from 'mobx-react/native'
+import { inject, observer } from 'mobx-react/native'
 import React from 'react'
 import { StyleSheet } from 'react-native'
 
@@ -10,6 +10,8 @@ export interface Props {
   themeStore: ThemeStoreInterface
   style: React.CSSProperties
   name: string
+  xxlarge: boolean
+  xlarge: boolean
   large: boolean
   small: boolean
   bold: boolean
@@ -28,58 +30,55 @@ export interface Props {
   danger: boolean
 }
 
-@inject(({ themeStore }) => ({ themeStore }))
-class Icon extends React.Component<Props> {
+@inject('themeStore')
+@observer
+class Icon extends React.Component<Props, {}> {
+  @computed
+  get theme() {
+    return this.props.themeStore.theme
+  }
+
   @computed
   get styles() {
-    return styles(this.props.themeStore.theme)
+    return styles(this.theme)
   }
 
   render() {
     const { style, ...rest } = this.props
-    const finalStyle = [
-      this.styles.text,
-      this.props.large && this.styles.large,
-      this.props.small && this.styles.small,
-      this.props.bold && this.styles.bold,
-      this.props.light && this.styles.light,
-      this.props.faded && this.styles.faded,
-      this.props.blue && this.styles.blue,
-      this.props.violet && this.styles.violet,
-      this.props.orange && this.styles.orange,
-      this.props.cyan && this.styles.cyan,
-      this.props.primary && this.styles.primary,
-      this.props.secondary && this.styles.secondary,
-      this.props.tertiary && this.styles.tertiary,
-      this.props.info && this.styles.info,
-      this.props.success && this.styles.success,
-      this.props.warning && this.styles.warning,
-      this.props.danger && this.styles.danger,
-      style,
-    ]
+    const finalStyle = [this.styles.text, this.props.bold && this.styles.bold, this.props.light && this.styles.light, style]
 
-    return <MaterialCommunityIcons {...rest} style={finalStyle} />
+    const size =
+      this.props.size ||
+      (this.props.xxlarge && this.theme.fontSizeXx) ||
+      (this.props.xlarge && this.theme.fontSizeXl) ||
+      (this.props.large && this.theme.fontSizeLg) ||
+      (this.props.small && this.theme.fontSizeSm) ||
+      this.theme.fontSizeLg
+
+    const color =
+      this.props.color ||
+      (this.props.faded && this.theme.colorLight) ||
+      (this.props.blue && this.theme.blue) ||
+      (this.props.violet && this.theme.violet) ||
+      (this.props.orange && this.theme.orange) ||
+      (this.props.cyan && this.theme.cyan) ||
+      (this.props.primary && this.theme.primary) ||
+      (this.props.secondary && this.theme.secondary) ||
+      (this.props.tertiary && this.theme.tertiary) ||
+      (this.props.info && this.theme.info) ||
+      (this.props.success && this.theme.success) ||
+      (this.props.warning && this.theme.warning) ||
+      (this.props.danger && this.theme.danger) ||
+      this.theme.color
+
+    return <MaterialCommunityIcons {...rest} size={size} color={color} style={finalStyle} />
   }
 }
 
 const styles = theme =>
   StyleSheet.create({
     text: {
-      color: theme.color,
-      fontSize: theme.fontSize,
       fontWeight: theme.fontWeight,
-    },
-
-    faded: {
-      color: theme.colorLight,
-    },
-
-    large: {
-      fontSize: theme.fontSizeLg,
-    },
-
-    small: {
-      fontSize: theme.fontSizeSm,
     },
 
     bold: {
@@ -88,50 +87,6 @@ const styles = theme =>
 
     light: {
       fontWeight: theme.fontWeightLight,
-    },
-
-    blue: {
-      color: theme.blue,
-    },
-
-    violet: {
-      color: theme.violet,
-    },
-
-    orange: {
-      color: theme.orange,
-    },
-
-    cyan: {
-      color: theme.cyan,
-    },
-
-    primary: {
-      color: theme.primary,
-    },
-
-    secondary: {
-      color: theme.secondary,
-    },
-
-    tertiary: {
-      color: theme.tertiary,
-    },
-
-    info: {
-      color: theme.info,
-    },
-
-    success: {
-      color: theme.success,
-    },
-
-    warning: {
-      color: theme.warning,
-    },
-
-    danger: {
-      color: theme.danger,
     },
   })
 

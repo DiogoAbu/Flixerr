@@ -1,6 +1,6 @@
 import { MaterialCommunityIcons as Icon } from '@expo/vector-icons'
 import { computed } from 'mobx'
-import { inject } from 'mobx-react/native'
+import { inject, observer } from 'mobx-react/native'
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 
@@ -26,16 +26,21 @@ export interface Props {
   danger: boolean
 }
 
-@inject(({ themeStore }) => ({ themeStore }))
-class Label extends React.Component<Props> {
+@inject('themeStore')
+@observer
+class CircleIcon extends React.Component<Props, {}> {
+  @computed
+  get theme() {
+    return this.props.themeStore.theme
+  }
+
   @computed
   get styles() {
-    return styles(this.props.themeStore.theme)
+    return styles(this.theme)
   }
 
   render() {
     const { style, containerStyle, name, size, color } = this.props
-    const theme = this.props.themeStore.theme
 
     const finalContainerStyle = [
       this.styles.container,
@@ -57,13 +62,13 @@ class Label extends React.Component<Props> {
 
     return (
       <View style={finalContainerStyle}>
-        <Icon name={name} size={size || theme.fontSizeLg} color={color || theme.color} style={finalStyle} />
+        <Icon name={name} color={color || this.theme.color} size={size || this.theme.fontSizeLg} style={finalStyle} />
       </View>
     )
   }
 }
 
-/* tslint:disable:object-literal-sort-keys */
+// tslint:disable:object-literal-sort-keys
 const styles = theme =>
   StyleSheet.create({
     container: {
@@ -120,4 +125,4 @@ const styles = theme =>
     },
   })
 
-export default Label
+export default CircleIcon

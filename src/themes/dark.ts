@@ -1,10 +1,10 @@
 import base from './base'
 
-/* tslint:disable:object-literal-sort-keys */
+// tslint:disable:object-literal-sort-keys
 export default {
   ...base,
 
-  NAME: 'Dark',
+  _name: 'Dark',
 
   // Body
   bodyBg: base.black,
@@ -18,6 +18,7 @@ export default {
 
   // Floating Button
   floatingButtonBgColor: base.primary,
+  floatingActionOverlayColor: 'rgba(0, 0, 0, 0.7)',
 
   floatingActionBgColor: base.primary,
   floatingActionIconSize: base.fontSizeLg,

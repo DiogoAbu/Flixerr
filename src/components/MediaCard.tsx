@@ -1,82 +1,45 @@
 import { computed } from 'mobx'
-import { inject } from 'mobx-react/native'
+import { inject, observer } from 'mobx-react/native'
 import moment from 'moment'
 import 'moment-duration-format'
 import React from 'react'
 import { StyleSheet, TouchableOpacity, View } from 'react-native'
 
-import { Media, SortOneFileAdded, ThemeStoreInterface } from '../interfaces'
+import { Media, ThemeStoreInterface } from '../interfaces'
 
 import CircleIcon from './CircleIcon'
 import Icon from './Icon'
 import Image from './Image'
-import Label from './Label'
 import Text from './Text'
 
 export interface Props {
   themeStore: ThemeStoreInterface
   item: Media
   posterHeight: number
-  sortOneFileAdded(item: Media): SortOneFileAdded
 }
 
-@inject(({ themeStore, mediaStore: { sortOneFileAdded } }) => ({ themeStore, sortOneFileAdded }))
-class MediaCard extends React.Component<Props> {
+@inject('themeStore')
+@observer
+class MediaCard extends React.Component<Props, {}> {
   @computed
   get styles() {
     return styles(this.props.themeStore.theme)
   }
 
-  @computed
-  get getDateAdded() {
-    const { item, sortOneFileAdded } = this.props
-    const { date, downloaded } = sortOneFileAdded(item)
-
-    return {
-      date: moment.utc(date).fromNow(),
-      icon: downloaded ? 'download' : item.isSeries ? 'television-guide' : 'movie-roll',
-    }
-  }
-
-  renderGenres() {
-    const {
-      item: { genres },
-    } = this.props
-
-    if (!genres || genres.length <= 0) {
-      return
-    }
-
-    const toShow = genres.slice(0, 2)
-
-    return (
-      <View style={this.styles.labelContainer}>
-        {toShow.map(genre => (
-          <Label key={genre} violet={true} containerStyle={this.styles.label}>
-            {genre}
-          </Label>
-        ))}
-        {genres.length > toShow.length && (
-          <Label key="extra-genres" info={true} containerStyle={this.styles.label}>
-            +{genres.length - toShow.length}
-          </Label>
-        )}
-      </View>
-    )
-  }
+  onPressPoster = () => null
 
   render() {
     const { item, posterHeight } = this.props
     const posterWidth = posterHeight / 1.5
 
-    const { date: dateAdded, icon: dateAddedIcon } = this.getDateAdded
-
     return (
       <View style={this.styles.container}>
-        <CircleIcon name={item.isSeries ? 'television-classic' : 'filmstrip'} success={item.isSeries} containerStyle={this.styles.iconContainer} />
+        <TouchableOpacity onPress={this.onPressMediaType} activeOpacity={0.5} style={this.styles.iconContainer}>
+          <CircleIcon name={item.isSeries ? 'television-classic' : 'filmstrip'} primary={!item.isSeries} success={item.isSeries} />
+        </TouchableOpacity>
 
         <View style={this.styles.cardContainer}>
-          <TouchableOpacity activeOpacity={0.5} style={[this.styles.imageContainer, { height: posterHeight, width: posterWidth }]}>
+          <TouchableOpacity onPress={this.onPressPoster} activeOpacity={0.5} style={[this.styles.imageContainer, { height: posterHeight, width: posterWidth }]}>
             <Image
               source={{
                 uri: item.isSeries
@@ -98,12 +61,34 @@ class MediaCard extends React.Component<Props> {
               </Text>
             </View>
 
-            <Text style={this.styles.dateAddedContainer}>
-              <Icon orange={true} name={dateAddedIcon} />
-              <Text orange={true}>{' ' + dateAdded}</Text>
-            </Text>
+            <View style={this.styles.actionsContainer}>
+              <TouchableOpacity onPress={this.onPressRefresh} activeOpacity={0.5} style={this.styles.actionButton}>
+                <Icon name="refresh" xxlarge={true} info={true} />
+              </TouchableOpacity>
+              <TouchableOpacity onPress={this.onPressMonitor} activeOpacity={0.5} style={this.styles.actionButton}>
+                <Icon name={item.monitored ? 'bookmark' : 'bookmark-outline'} xxlarge={true} success={true} />
+              </TouchableOpacity>
+              <TouchableOpacity onPress={this.onPressSearch} activeOpacity={0.5} style={this.styles.actionButton}>
+                <Icon name="magnify" xxlarge={true} warning={true} />
+              </TouchableOpacity>
+              <TouchableOpacity onPress={this.onPressManualSearch} activeOpacity={0.5} style={this.styles.actionButton}>
+                <Icon name="account-circle" xxlarge={true} danger={true} />
+              </TouchableOpacity>
+            </View>
 
-            {this.renderGenres()}
+            {item.isSeries ? (
+              <Text style={this.styles.dateAddedContainer} numberOfLines={1} ellipsizeMode="tail">
+                <Icon orange={true} name={item.latestDownloadedFile.hasFile ? 'download' : 'plus-circle'} />
+                <Text orange={true}> S{item.latestDownloadedFile.seasonNumber}</Text>
+                <Text orange={true}> E{item.latestDownloadedFile.episodeNumber}</Text>
+                <Text orange={true}> - {moment.utc(item.latestDownloadedFile.date).fromNow()}</Text>
+              </Text>
+            ) : (
+              <Text style={this.styles.dateAddedContainer} numberOfLines={1} ellipsizeMode="tail">
+                <Icon orange={true} name={item.latestDownloadedFile.hasFile ? 'download' : 'plus-circle'} />
+                <Text orange={true}> {moment.utc(item.latestDownloadedFile.date).fromNow()}</Text>
+              </Text>
+            )}
           </View>
         </View>
       </View>
@@ -137,26 +122,31 @@ const styles = theme =>
 
     infoContainer: {
       flex: 1,
+      flexDirection: 'column',
+      justifyContent: 'space-between',
       padding: theme.gridSmall,
     },
 
     detailContainer: {
-      flex: 1,
+      // flex: 1,
     },
 
     title: {
       marginRight: theme.gridSmall,
     },
 
-    dateAddedContainer: {},
-
-    labelContainer: {
+    actionsContainer: {
       flexDirection: 'row',
-      paddingTop: theme.gridSmall,
+      justifyContent: 'flex-start',
     },
 
-    label: {
-      marginRight: theme.gridSmaller,
+    actionButton: {
+      marginHorizontal: theme.gridSmaller,
+      padding: theme.gridSmaller,
+    },
+
+    dateAddedContainer: {
+      // marginTop: theme.gridSmaller,
     },
 
     iconContainer: {

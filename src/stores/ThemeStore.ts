@@ -13,12 +13,12 @@ class ThemeStore implements ThemeStoreInterface {
   /** Get theme variables */
   @computed
   get theme(): object {
-    return this.current in themes ? themes[this.current] : themes.dark
+    return this.current in this.available ? this.available[this.current] : this.available.dark
   }
 
   /** Set theme to be used */
   @action
-  setTheme(theme: string) {
+  setTheme = (theme: string) => {
     if (theme in this.available) {
       this.current = theme
     }

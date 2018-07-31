@@ -1,5 +1,5 @@
 import { computed } from 'mobx'
-import { inject } from 'mobx-react/native'
+import { inject, observer } from 'mobx-react/native'
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
@@ -23,8 +23,9 @@ export interface Props {
   danger: boolean
 }
 
-@inject(({ themeStore }) => ({ themeStore }))
-class Label extends React.Component<Props> {
+@inject('themeStore')
+@observer
+class Label extends React.Component<Props, {}> {
   @computed
   get styles() {
     return styles(this.props.themeStore.theme)
@@ -59,7 +60,7 @@ class Label extends React.Component<Props> {
   }
 }
 
-/* tslint:disable:object-literal-sort-keys */
+// tslint:disable:object-literal-sort-keys
 const styles = theme =>
   StyleSheet.create({
     container: {

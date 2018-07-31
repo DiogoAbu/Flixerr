@@ -1,3 +1,5 @@
+import { LatestDownloadedFile } from './MediaStoreInterface'
+
 export interface Series {
   title: string
   alternateTitles: SeriesAlternateTitle[]
@@ -39,6 +41,7 @@ export interface Series {
   id: number
   episodes?: Episode[]
   isSeries?: boolean
+  latestDownloadedFile?: LatestDownloadedFile
 }
 
 export interface SeriesAlternateTitle {
@@ -99,7 +102,7 @@ export interface EpisodeFile {
   size: number
   dateAdded: string
   sceneName?: string
-  quality: EpisodeFileQuality
+  quality: EpisodeQuality
   mediaInfo: EpisodeMediaInfo
   qualityCutoffNotMet: boolean
   id: number
@@ -111,7 +114,7 @@ export interface EpisodeMediaInfo {
   videoCodec: string
 }
 
-export interface EpisodeFileQuality {
+export interface EpisodeQuality {
   quality: SonarrQuality
   revision: EpisodeRevision
 }
@@ -126,4 +129,21 @@ export interface SonarrQuality {
 export interface EpisodeRevision {
   version: number
   real: number
+}
+
+export interface SeriesQueue {
+  series: Series
+  episode: Episode
+  quality: EpisodeQuality
+  size: number
+  title: string
+  sizeleft: number
+  timeleft: string
+  estimatedCompletionTime: string
+  status: string
+  trackedDownloadStatus: string
+  statusMessages: any[]
+  downloadId: string
+  protocol: string
+  id: number
 }

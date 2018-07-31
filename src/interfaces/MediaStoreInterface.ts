@@ -1,21 +1,26 @@
-import { Movie } from './MovieInterface'
-import { Series } from './SeriesInterface'
+import { Movie, MovieQueue } from './MovieInterface'
+import { Series, SeriesQueue } from './SeriesInterface'
 
 export type Media = Movie | Series
+export type Queue = MovieQueue | SeriesQueue
 
 export interface MediaStoreInterface {
   media: Media[]
+  queue: Queue[]
   currentOrder: string
-  sortTitle(): Media[]
-  sortAdded(): Media[]
-  sortFileAdded(): Media[]
-  sortOneFileAdded(item: Media): SortOneFileAdded
-  fetchMedia(): void
-  _fetchMovies(): Movie[]
-  _fetchSeries(): Series[]
+  mediaSortedByTitle: () => Media[]
+  mediaSortedByAdded: () => Media[]
+  mediaSortedByFileAdded: () => Media[]
+  fetchAll: () => void
+  private _fetchMovies: () => Movie[]
+  private _fetchSeries: () => Series[]
+  private _fetchEpisodesForSeries: (series: Series[]) => Series[]
+  private _getLatestDownloadedFile: (item: Media) => LatestDownloadedFile
 }
 
-export interface SortOneFileAdded {
+export interface LatestDownloadedFile {
   date: string
-  download: boolean
+  hasFile: boolean
+  episodeNumber?: boolean
+  seasonNumber?: boolean
 }

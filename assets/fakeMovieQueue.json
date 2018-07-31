@@ -1,0 +1,74 @@
+[
+  {
+    "movie": {
+      "title": "In Darkness",
+      "alternativeTitles": [],
+      "secondaryYearSourceId": 0,
+      "sortTitle": "in darkness",
+      "sizeOnDisk": 0,
+      "status": "released",
+      "overview":
+        "A blind musician hears a murder committed in the apartment upstairs from hers that sends her down a dark path into London's gritty criminal underworld.",
+      "inCinemas": "2018-05-25T03:00:00Z",
+      "physicalRelease": "2018-07-06T00:00:00Z",
+      "images": [
+        {
+          "coverType": "poster",
+          "url": "http://image.tmdb.org/t/p/original/c5w3fkua6BYjDzs0bbOXYbWCrlF.jpg"
+        },
+        {
+          "coverType": "fanart",
+          "url": "http://image.tmdb.org/t/p/original/iEWuQW5RY8xvhqROWxcoaw84L4T.jpg"
+        }
+      ],
+      "downloaded": false,
+      "year": 2018,
+      "hasFile": false,
+      "youTubeTrailerId": "lAvHoeClyc4",
+      "studio": "42",
+      "path": "/mnt/EAEE7CCBEE7C9215/Filmes/In Darkness (2018)",
+      "profileId": 7,
+      "pathState": "static",
+      "monitored": true,
+      "minimumAvailability": "released",
+      "isAvailable": true,
+      "folderName": "/mnt/EAEE7CCBEE7C9215/Filmes/In Darkness (2018)",
+      "runtime": 100,
+      "lastInfoSync": "2018-07-12T01:22:33.286071Z",
+      "cleanTitle": "indarkness",
+      "imdbId": "tt5164184",
+      "tmdbId": 417643,
+      "titleSlug": "in-darkness-417643",
+      "genres": [],
+      "tags": [],
+      "added": "2018-07-12T01:22:32.348101Z",
+      "ratings": {
+        "votes": 69,
+        "value": 5.7
+      },
+      "qualityProfileId": 7,
+      "id": 50
+    },
+    "quality": {
+      "quality": {
+        "id": 3,
+        "name": "WEBDL-1080p"
+      },
+      "revision": {
+        "version": 1,
+        "real": 0
+      }
+    },
+    "size": 0,
+    "title": "[zooqle.com] In Darkness 2018 MULTi 1080p WEBRip x264-BRiNK",
+    "sizeleft": 0,
+    "timeleft": "00:00:00",
+    "estimatedCompletionTime": "2018-07-12T01:22:52.976505Z",
+    "status": "Queued",
+    "trackedDownloadStatus": "Ok",
+    "statusMessages": [],
+    "downloadId": "A3D4873DF49E45BA2523EE5D94F7488C63DEECE8",
+    "protocol": "torrent",
+    "id": 727400334
+  }
+]

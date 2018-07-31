@@ -1,10 +1,10 @@
 import base from './base'
 
-/* tslint:disable:object-literal-sort-keys */
+// tslint:disable:object-literal-sort-keys
 export default {
   ...base,
 
-  NAME: 'Light',
+  _name: 'Light',
 
   // Body
   bodyBg: base.grayLighter,

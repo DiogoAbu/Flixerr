@@ -1,3 +1,5 @@
+import { LatestDownloadedFile } from './MediaStoreInterface'
+
 export interface Movie {
   title: string
   alternativeTitles: MovieAlternativeTitle[]
@@ -36,6 +38,7 @@ export interface Movie {
   movieFile?: MovieFile
   qualityProfileId: number
   id: number
+  latestDownloadedFile?: LatestDownloadedFile
 }
 
 export interface MovieAlternativeTitle {
@@ -60,7 +63,7 @@ export interface MovieFile {
   size: number
   dateAdded: string
   releaseGroup: string
-  quality: MovieFileQuality
+  quality: MovieQuality
   edition: string
   mediaInfo: MovieFileMediaInfo
   id: number
@@ -87,7 +90,7 @@ export interface MovieFileMediaInfo {
   schemaRevision: number
 }
 
-export interface MovieFileQuality {
+export interface MovieQuality {
   quality: RadarrQuality
   revision: MovieRevision
 }
@@ -110,4 +113,20 @@ export interface MovieRatings {
 export interface MovieTag {
   id: number
   label: string
+}
+
+export interface MovieQueue {
+  movie: Movie
+  quality: MovieQuality
+  size: number
+  title: string
+  sizeleft: number
+  timeleft: string
+  estimatedCompletionTime: string
+  status: string
+  trackedDownloadStatus: string
+  statusMessages: any[]
+  downloadId: string
+  protocol: string
+  id: number
 }

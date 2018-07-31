@@ -1,5 +1,5 @@
 import { computed } from 'mobx'
-import { inject } from 'mobx-react/native'
+import { inject, observer } from 'mobx-react/native'
 import React from 'react'
 import { StyleSheet, Text as NativeText } from 'react-native'
 
@@ -9,6 +9,8 @@ export interface Props {
   themeStore: ThemeStoreInterface
   children: React.ReactNode
   style: React.CSSProperties
+  xxlarge: boolean
+  xlarge: boolean
   large: boolean
   small: boolean
   bold: boolean
@@ -27,8 +29,9 @@ export interface Props {
   danger: boolean
 }
 
-@inject(({ themeStore }) => ({ themeStore }))
-class Text extends React.Component<Props> {
+@inject('themeStore')
+@observer
+class Text extends React.Component<Props, {}> {
   @computed
   get styles() {
     return styles(this.props.themeStore.theme)
@@ -38,6 +41,8 @@ class Text extends React.Component<Props> {
     const { children, style, ...rest } = this.props
     const finalStyle = [
       this.styles.text,
+      this.props.xxlarge && this.styles.xxlarge,
+      this.props.xlarge && this.styles.xlarge,
       this.props.large && this.styles.large,
       this.props.small && this.styles.small,
       this.props.bold && this.styles.bold,
@@ -73,8 +78,12 @@ const styles = theme =>
       fontWeight: theme.fontWeight,
     },
 
-    faded: {
-      color: theme.colorLight,
+    xxlarge: {
+      fontSize: theme.fontSizeXx,
+    },
+
+    xlarge: {
+      fontSize: theme.fontSizeXl,
     },
 
     large: {
@@ -91,6 +100,10 @@ const styles = theme =>
 
     light: {
       fontWeight: theme.fontWeightLight,
+    },
+
+    faded: {
+      color: theme.colorLight,
     },
 
     blue: {

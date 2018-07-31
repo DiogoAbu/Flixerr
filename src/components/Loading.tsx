@@ -8,7 +8,7 @@ export interface Props {
   size: string
 }
 
-class Loading extends React.Component<Props> {
+class Loading extends React.Component<Props, {}> {
   static defaultProps: Partial<Props> = {
     animating: true,
     containerStyle: null,
